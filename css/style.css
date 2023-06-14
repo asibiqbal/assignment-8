@@ -92,4 +92,9 @@ header {
     padding: 80px 0;
 }
 
+.blog h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 /* Blog section End */
