@@ -31,12 +31,12 @@ header {
 }
 
 .humburger:hover span:nth-child(1) {
-    transform: translatey(2px);
+    transform: translatey(3px);
     transition: 0.2s ease-in;
 }
 
 .humburger:hover span:nth-child(3) {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     transition: 0.2s ease-in;
 }
 
@@ -85,6 +85,15 @@ header {
     line-height: 1.6;
 }
 
+.owl-theme .owl-nav {
+    display: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #F79918;
+}
+
 /* Banner End */
 
 /* Blog section start */
@@ -93,8 +102,28 @@ header {
 }
 
 .blog h5 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 /* Blog section End */
+
+
+/* Topic Section Start */
+.topic {
+    padding: 80px 0;
+}
+
+.topic h6 {
+    font-size: 17px;
+}
+
+.owner {
+    font-size: 16px !important;
+}
+
+.owner-content {
+    font-size: 14px;
+}
+
+/* Topic Section End */
