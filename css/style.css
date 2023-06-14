@@ -1,0 +1,78 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Start */
+header {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.logo a:hover span {
+    color: #F79918;
+    transition: 0.2s;
+}
+
+.humburger span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: black;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: auto;
+    transition: 0.2s ease-in;
+}
+
+.humburger:hover span {
+    cursor: pointer;
+}
+
+.humburger:hover span:nth-child(1) {
+    transform: translatey(2px);
+    transition: 0.2s ease-in;
+}
+
+.humburger:hover span:nth-child(3) {
+    transform: translateY(-2px);
+    transition: 0.2s ease-in;
+}
+
+.header-form {
+    position: relative;
+}
+
+.header-form input {
+    padding-left: 40px;
+    height: 38px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.header-form input:focus {
+    border: 1px solid #000000;
+    outline: none;
+}
+
+.header-form-icon {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    color: #ccc;
+    font-size: 12px;
+}
+
+.header-social i {
+    font-size: 13px;
+}
+
+/* Header End */
+
+/* Banner Start */
+.banner {
+    padding: 80px 0;
+}
+
+/* Banner End */
