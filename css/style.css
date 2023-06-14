@@ -75,4 +75,21 @@ header {
     padding: 80px 0;
 }
 
+.banner-catagory .date {
+    color: #999;
+}
+
+.slider-content {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
 /* Banner End */
+
+/* Blog section start */
+.blog {
+    padding: 80px 0;
+}
+
+/* Blog section End */
