@@ -137,4 +137,83 @@ header {
     font-size: 16px;
 }
 
+.subscribe {
+    background: #F8F9FA;
+    padding: 60px 0;
+}
+
+.subscribe input {
+    padding: 12px 0px 12px 20px;
+    width: 70%;
+    margin-right: 15px;
+    border: 1px solid #CCCCCC;
+}
+
+.subscribe input:focus {
+    outline: none;
+    border: 1px solid #000000;
+}
+
+.subscribe button {
+    padding: 16px 120px;
+    border: transparent;
+    background: #F79918;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    transition: 0.5s;
+}
+
+.subscribe button:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: white;
+    color: #F79918 !important;
+    transition: 0.5s;
+}
+
 /* popular post End */
+
+/* Footer Social Start */
+footer {
+    padding: 80px 0;
+}
+
+.footer-social a {
+    font-size: 14px;
+    background: #ccc;
+    padding: 10px 0;
+    width: 40px;
+    display: inline-block;
+    border-radius: 15px;
+    color: black;
+    transition: 0.4s;
+}
+
+.footer-social a:hover {
+    background: #F79918;
+    color: white;
+    transition: 0.4s;
+}
+
+footer p {
+    color: #888888;
+}
+
+.love {
+    color: red;
+}
+
+.footer-hover {
+    color: #888888;
+    text-decoration: none;
+    border-bottom: 2px solid #fde6c7;
+    transition: 0.4s;
+}
+
+.footer-hover:hover {
+    color: #000000;
+    border-bottom: 2px solid #F79918;
+    transition: 0.4s;
+}
+
+/* Footer Social End */
