@@ -206,13 +206,13 @@ footer p {
 .footer-hover {
     color: #888888;
     text-decoration: none;
-    border-bottom: 2px solid #fde6c7;
+    border-bottom: 4px solid #fde6c7;
     transition: 0.4s;
 }
 
 .footer-hover:hover {
     color: #000000;
-    border-bottom: 2px solid #F79918;
+    border-bottom: 4px solid #F79918;
     transition: 0.4s;
 }
 
