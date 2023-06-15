@@ -127,3 +127,14 @@ header {
 }
 
 /* Topic Section End */
+
+/* popular post start */
+.popular-post {
+    padding: 80px 0;
+}
+
+.banner-2-content {
+    font-size: 16px;
+}
+
+/* popular post End */
